@@ -12,8 +12,15 @@ function removeFromCart(item) {
 function getCartItems() {
     return cartStorage;
 }
+function getSizeCart()
+{
+    return cartStorage.length;
+}
+function clearCart(){
+    cartStorage = [];
+}
 function calculateTotalPrice() {
     return cartStorage.reduce((total, item) => total + item.preco, 0);
 }
 
-export { addToCart, removeFromCart, getCartItems, calculateTotalPrice, cartStorage };
+export { addToCart, removeFromCart, getCartItems, getSizeCart, clearCart, calculateTotalPrice, cartStorage };
