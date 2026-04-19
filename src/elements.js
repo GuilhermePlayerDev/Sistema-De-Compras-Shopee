@@ -1,0 +1,70 @@
+const nomes_produtos = [
+    "Tênis de Corrida",
+    "Camiseta Dry Fit",
+    "Mochila Antifurto",
+    "Garrafa Térmica 1L",
+    "Cafeteira Elétrica",
+    "Air Fryer 4L",
+    "Liquidificador",
+    "Panela de Pressão Elétrica",
+    "Ventilador de Mesa",
+    "Aspirador Robô",
+    "Fritadeira Sem Óleo",
+    "Kit de Ferramentas",
+    "Furadeira de Impacto",
+    "Luminária de LED",
+    "Organizador de Cabos",
+    "Suporte para Notebook",
+    "Livro de JavaScript",
+    "Caderno Inteligente",
+    "Caneca Personalizada",
+    "Planta Artificial"
+];
+
+const precos_produtos = [
+    2499.90,
+    89.90,
+    450.00,
+    899.00,
+    199.90,
+    320.50,
+    1200.00,
+    650.00,
+    480.00,
+    380.00,
+    1800.00,
+    950.00,
+    700.00,
+    399.00,
+    79.90,
+    150.00,
+    280.00,
+    350.00,
+    550.00,
+    520.00
+];
+
+const codigos_Barras = [
+    78901,
+    23456,
+    45678,
+    89012,
+    12345,
+    67890,
+    34567,
+    90123,
+    56789,
+    11234,
+    13579,
+    24680,
+    97531,
+    86420,
+    75319,
+    64208,
+    15937,
+    48260,
+    60482,
+    31759
+];
+
+export { precos_produtos, nomes_produtos, codigos_Barras };
